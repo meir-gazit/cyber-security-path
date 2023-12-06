@@ -16,17 +16,13 @@ Class Exercise –1
 └─# touch file1.txt file2.txt fileA.txt fileA1.txt fileB2.txt                                 
                                                                                                                     
 ┌──(root㉿kali)-[~/Documents]
-└─# ls *file*          
-file1.txt  file2.txt  fileA1.txt  fileA.txt  fileB2.txt
+└─# ls *file*  file1.txt  file2.txt  fileA1.txt  fileA.txt  fileB2.txt
                                                                                                                     
 ┌──(root㉿kali)-[~/Documents]
-└─# ls *file[0-9]*
-file1.txt  file2.txt
+└─# ls *file[0-9]*  file1.txt  file2.txt
                                                                                                                     
 ┌──(root㉿kali)-[~/Documents]
-└─# ls *file[a-zA-Z][0-9]*
-fileA1.txt  fileB2.txt
+└─# ls *file[a-zA-Z][0-9]*  fileA1.txt  fileB2.txt
                                                                                                                     
 ┌──(root㉿kali)-[~/Documents]
-└─# ls *file[A-Z]*        
-fileA1.txt  fileA.txt  fileB2.txt
+└─# ls *file[A-Z]*  fileA1.txt  fileA.txt  fileB2.txt
