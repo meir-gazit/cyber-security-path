@@ -1,6 +1,6 @@
 #
 # Linux Drill 01
-#
+
 
 1. Create a new dir within / tmp dir. [ mkdir /tmp/dir1 ]
 2. Change its owner to root and back to kali user. [ chown root /tmp/dir1 @---> chown kali /tmp/dir1 ]
